@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pour Hinerava ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Musique -->
+<audio id="musique" loop>
+    <source src="musique.mp3" type="audio/mpeg">
+</audio>
+
+<header>
+    <h1>Pour toi mon amoureuse Hinerava ❤️</h1>
+    <p class="date">Depuis le 15 décembre 2023</p>
+</header>
+<div class="music-control">
+    <button onclick="document.getElementById('musique').play()">
+        ▶️ Lancer la musique
+    </button>
+</div>
+
+<main>
+
+    <p>
+        Si tu lis ce texte actuellement c'est soit tu m'as pas écouté et tu l'as ouvert avant que je parte et je te dirais que t'es vraiment
+        une grosse taioro mais aussi que je te comprends car peut-etre que je te manquais et que tu étais impatient de découvrir
+        ce qu'il se cachait derrière ce script HAHAHA, ou soit je te manque à la seconde où tu lis ce texte, enfin bref fini de joué. 
+        Depuis le <strong>15 décembre 2023</strong>, quelque chose a changé en moi.
+        Ta présence rend les jours plus doux et chaque seconde plus précieux, je t'es créé ce site spécialement pour te rappeler que tu peux tout d'abord etre sereine
+        car je te serais toujours fidèle désormais, mais aussi que je serais toujours là... peut-etre pas physiquement malheuresement mais sache que je suis là à tes cotés...
+        au fin fond de ton cu... euh coeur pardon HAHAHHAHHAHA. Je blague mais enfin bon sache que je suis là, chaque seconde et meme a la seconde où tu lis ce message je suis
+        entrain de penser à toi et tu me manques sur et certain.
+    </p>
+
+    <img src="images/amour.jpg" 
+     alt="Déclaration d'amour"
+     class="image-page"
+     onclick="afficherMessage()">
+<p id="message-cache">
+    Brad je te vois arrete de pleure ereeeee hahahha blague namour JE TAIMEEEE❤️
+</p>
+
+    <p>
+        Quand je pense à toi, mon cœur se calme et s’emballe à la fois car le fait d'etre loin de toi me fait chambouler toutes mes émotions.
+        Tu es cette pensée qui revient toujours, sans jamais lasser.
+    </p>
+
+    <p class="final">
+        Je ne sais pas de quoi demain sera fait,
+        mais une chose est sûre :  
+        <br>
+        <strong>je veux la vivre avec toi, Je T'aime Hinerava.</strong> ❤️
+    </p>
+
+    <div class="heart">❤️</div>
+
+</main>
+
+<footer>
+    <p>Avec tout mon amour</p>
+</footer>
+<script>
+function afficherMessage() {
+    const msg = document.getElementById("message-cache");
+    msg.style.display = "block";
+    setTimeout(() => msg.classList.add("visible"), 10);
+}
+</script>
+
+</body>
+</html>
